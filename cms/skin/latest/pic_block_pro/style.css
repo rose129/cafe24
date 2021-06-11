@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.pic_lt_pro {position:relative;
+            
+            padding-top: 5%;
+            padding-bottom: 6%;}
+.pic_lt_pro .lat_title_pro {display:block;font-size:2rem;color:black;text-align:center; }
+.pic_lt_pro .lat_title_pro::after{
+  content: "";
+  position: absolute;
+  width: 200px;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 2px solid black
+}
+.pic_lt_pro .lat_title_pro a {color:#000;display:inline-block;position:relative;}
+
+
+.pic_lt_pro .lt_more:hover {color:#777}
+.pic_lt_pro ul:after {display:block;visibility:hidden;clear:both;content:""}
+.pic_lt_pro ul {margin-top: 4%;
+                margin-bottom: 8%; text-align: center;}
+.pic_lt_pro li {display: inline-block;width:16%;margin: 12px;background: #ffe250;
+    border-radius: 50% 50% 0 0;}
+.pic_lt_pro li.gallery_li:nth-child(4n+1) {clear: both!important}
+.pic_lt_pro li .lt_img {margin:5px 0;display:block}
+.pic_lt_pro li .lt_img img, .pic_lt li .lt_img video {width:100%;height:auto}
+.pic_lt_pro li a:hover {color:#a22121}
+.pic_lt_pro li .fa-heart {color:#ff0000}
+.pic_lt_pro li .fa-lock {display:inline-block;line-height:14px;width:16px;color:#4f818c;background:#cbe3e8;text-align:center;border-radius:2px;font-size:12px;border:1px solid #cbe3e8;vertical-align:middle}
+.pic_lt_pro li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#23db79;background:#b9ffda;text-align:center;border-radius:2px;margin-left:2px;font-weight:bold;vertical-align:middle}
+.pic_lt_pro li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#ff0000;background:#ffb9b9;text-align:center;border-radius:2px;vertical-align:middle}
+.pic_lt_pro li .fa-caret-right {color:#bbb}
+.pic_lt_pro li .fa-download {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#daae37;background:#ffefb9;text-align:center;border-radius:2px;vertical-align:middle}
+.pic_lt_pro li .fa-link {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#b451fd;background:#edd3fd;text-align:center;border-radius:2px;vertical-align:middle}
+
+.pic_lt_pro .profile_img img{border-radius:50%;}
+.pic_lt_pro  img{ top: 80px; position: relative;}
+.pic_lt_pro > ul> .gallery_li_:hover > a > img{ transform:scale(0.9);}
+.pic_lt_pro > ul> .gallery_li_:hover{}
+
+.lt_info {padding:10px 0}
+.lt_info .lt_nick {}
+.lt_info .lt_date {color:#888}
+
+.pic_lt_pro .empty_li {line-height:145px ;color:#666;text-align:center;padding:0}
+.pic_lt_pro .empty_li:before {background:none;padding:0}
+
+.pic_lt_pro .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
+.pic_lt_pro .lt_more {position:absolute;bottom: 5%;left: 51%;
+                      display:block;line-height:4rem;color:white;width: 220px;
+                      text-align:center;font-size: 1.2rem;
+                      background: coral;
+                      border-radius: 50px;}
+.pic_lt_pro .lt_more:hover {background: white; color: coral; border: 2px solid coral}
+.pic_lt_pro .Best_new {position:absolute;bottom: 5%;left: 37%;  display:block;line-height:4rem;color:white;width: 220px;
+                      text-align:center;font-size: 1.2rem;
+                      background: coral;
+                      border-radius: 50px;}
+.pic_lt_pro .Best_new:hover {background: white; color: coral; border: 2px solid coral}
